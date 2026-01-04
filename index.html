@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="TIKAL Devs - Desarrolladores de aplicaciones móviles innovadoras. LyricSync: Editor de videos con letras sincronizadas.">
+    <meta name="keywords" content="TIKAL Devs, LyricSync, Android, App, Video Editor">
+    <title>TIKAL Devs - LyricSync | App de Edición de Videos</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">
+                <img src="assets/tikal-logo.png" alt="TIKAL Devs Logo" height="40" class="me-2">
+                TIKAL Devs
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#app">LyricSync</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Características</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="privacy-policy.html">Privacidad</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero-section text-white py-5">
+        <div class="container h-100 d-flex align-items-center justify-content-center">
+            <div class="row w-100 align-items-center">
+                <div class="col-lg-6 text-center text-lg-start">
+                    <h1 class="display-3 fw-bold mb-4">
+                        Bienvenido a <span class="text-warning">TIKAL Devs</span>
+                    </h1>
+                    <p class="lead mb-4 fs-5">
+                        Somos desarrolladores apasionados creando aplicaciones innovadoras para Android.
+                        Presentamos <strong>LyricSync</strong>: edita videos con letras sincronizadas como nunca.
+                    </p>
+                    <a href="#app" class="btn btn-warning btn-lg me-2 fw-bold">Descubre LyricSync</a>
+                    <a href="https://play.google.com/store/apps/details?id=com.lyricsync"
+                        class="btn btn-outline-light btn-lg fw-bold" target="_blank">
+                        <i class="fab fa-google-play"></i> Descargar
+                    </a>
+                </div>
+                <div class="col-lg-6 text-center mt-4 mt-lg-0">
+                    <div class="hero-phone-mockup">
+                        <i class="fas fa-mobile-alt" style="font-size: 15rem; opacity: 0.3;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">Quiénes Somos</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6 mb-4">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-code text-primary" style="font-size: 3rem;"></i>
+                            <h5 class="card-title mt-3 fw-bold">Marlon Perez</h5>
+                            <p class="card-text text-muted">
+                                Fundador y Desarrollador Full-Stack especializado en React Native y aplicaciones
+                                móviles.
+                                Apasionado por crear experiencias de usuario intuitivas y funcionales.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12">
+                    <h3 class="fw-bold mb-3">Nuestra Misión</h3>
+                    <p class="fs-5 text-muted">
+                        En TIKAL Devs creemos en la innovación accesible. Desarrollamos aplicaciones que
+                        empoderen a creadores de contenido a nivel mundial, sin límites de presupuesto.
+                        Guatemala es nuestro punto de partida; el mundo es nuestro horizonte.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- APP SECTION -->
+    <section id="app" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">LyricSync</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h3 class="fw-bold mb-3">Edita videos con letras sincronizadas</h3>
+                    <p class="fs-5 text-muted mb-4">
+                        LyricSync es la herramienta perfecta para creadores de contenido que desean agregar
+                        letras profesionales a sus videos de forma sencilla y rápida.
+                    </p>
+                    <ul class="list-unstyled">
+                        <li class="mb-3">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            <strong>Sincronización automática</strong> - Las letras se alinean perfectamente con la
+                            música
+                        </li>
+                        <li class="mb-3">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            <strong>Personalización completa</strong> - Temas, fuentes, efectos y colores
+                        </li>
+                        <li class="mb-3">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            <strong>Versión Freemium</strong> - 10 videos gratis, Premium para ilimitados
+                        </li>
+                        <li class="mb-3">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            <strong>Almacenamiento local</strong> - Tus videos se guardan en tu teléfono
+                        </li>
+                    </ul>
+                    <a href="https://play.google.com/store/apps/details?id=com.lyricsync"
+                        class="btn btn-primary btn-lg fw-bold" target="_blank">
+                        <i class="fab fa-google-play"></i> Descargar en Play Store
+                    </a>
+                </div>
+                <div class="col-lg-6 text-center mt-4 mt-lg-0">
+                    <div class="app-showcase">
+                        <i class="fas fa-film text-primary" style="font-size: 12rem; opacity: 0.2;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES SECTION -->
+    <section id="features" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">Características Principales</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card border-0 shadow-sm text-center h-100">
+                        <div class="card-body">
+                            <i class="fas fa-music text-primary mb-3" style="font-size: 2.5rem;"></i>
+                            <h5 class="card-title fw-bold">Sincronización</h5>
+                            <p class="card-text text-muted">
+                                Sincroniza letras automáticamente con tu música. Precisión al milisegundo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card border-0 shadow-sm text-center h-100">
+                        <div class="card-body">
+                            <i class="fas fa-palette text-success mb-3" style="font-size: 2.5rem;"></i>
+                            <h5 class="card-title fw-bold">Personalización</h5>
+                            <p class="card-text text-muted">
+                                20+ temas, 100+ fuentes y efectos personalizables. Tu estilo, tu forma.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card border-0 shadow-sm text-center h-100">
+                        <div class="card-body">
+                            <i class="fas fa-lock text-warning mb-3" style="font-size: 2.5rem;"></i>
+                            <h5 class="card-title fw-bold">Privacidad</h5>
+                            <p class="card-text text-muted">
+                                Tus videos nunca salen de tu teléfono. 100% privado, 100% tuyo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card border-0 shadow-sm text-center h-100">
+                        <div class="card-body">
+                            <i class="fas fa-share text-info mb-3" style="font-size: 2.5rem;"></i>
+                            <h5 class="card-title fw-bold">Exportación</h5>
+                            <p class="card-text text-muted">
+                                Exporta en múltiples formatos. Comparte en YouTube, TikTok, Instagram.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card border-0 shadow-sm text-center h-100">
+                        <div class="card-body">
+                            <i class="fas fa-star text-danger mb-3" style="font-size: 2.5rem;"></i>
+                            <h5 class="card-title fw-bold">Premium</h5>
+                            <p class="card-text text-muted">
+                                Acceso ilimitado a videos, temas y efectos exclusivos. $2.99 USD.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card border-0 shadow-sm text-center h-100">
+                        <div class="card-body">
+                            <i class="fas fa-headset text-secondary mb-3" style="font-size: 2.5rem;"></i>
+                            <h5 class="card-title fw-bold">Soporte</h5>
+                            <p class="card-text text-muted">
+                                Soporte en español 24/7. Respondemos en menos de 48 horas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRIVACY HIGHLIGHT SECTION -->
+    <section id="privacy" class="py-5 privacy-highlight">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 text-center mb-4 mb-lg-0">
+                    <i class="fas fa-shield-alt text-success" style="font-size: 10rem; opacity: 0.8;"></i>
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="fw-bold mb-4"><i class="fas fa-lock text-success me-2"></i>Tu Privacidad Importa</h2>
+                    <p class="fs-5 mb-4">
+                        En TIKAL Devs nos tomamos tu privacidad muy en serio. <strong>LyricSync fue diseñada desde cero
+                            pensando en tu seguridad.</strong>
+                    </p>
+                    <div class="privacy-features">
+                        <div class="d-flex align-items-start mb-3">
+                            <i class="fas fa-times-circle text-danger me-3 mt-1" style="font-size: 1.5rem;"></i>
+                            <div>
+                                <strong>NO recopilamos datos personales</strong>
+                                <p class="text-muted mb-0">No pedimos nombre, email, ni información personal</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-start mb-3">
+                            <i class="fas fa-times-circle text-danger me-3 mt-1" style="font-size: 1.5rem;"></i>
+                            <div>
+                                <strong>NO enviamos tus videos a ningún servidor</strong>
+                                <p class="text-muted mb-0">Todo se procesa y guarda SOLO en tu teléfono</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-start mb-3">
+                            <i class="fas fa-times-circle text-danger me-3 mt-1" style="font-size: 1.5rem;"></i>
+                            <div>
+                                <strong>NO guardamos datos en la nube</strong>
+                                <p class="text-muted mb-0">Sin servidores externos, sin almacenamiento remoto</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-start mb-3">
+                            <i class="fas fa-times-circle text-danger me-3 mt-1" style="font-size: 1.5rem;"></i>
+                            <div>
+                                <strong>NO compartimos información con terceros</strong>
+                                <p class="text-muted mb-0">Tu contenido es 100% privado y tuyo</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-start mb-4">
+                            <i class="fas fa-check-circle text-success me-3 mt-1" style="font-size: 1.5rem;"></i>
+                            <div>
+                                <strong>TODO se queda en TU dispositivo</strong>
+                                <p class="text-muted mb-0">Al desinstalar la app, se borra todo automáticamente</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="privacy-policy.html" class="btn btn-success btn-lg fw-bold">
+                        <i class="fas fa-file-alt me-2"></i>Ver Política de Privacidad Completa
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="py-5 bg-dark text-white">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">Contacto</h2>
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="card bg-secondary border-0">
+                        <div class="card-body p-4">
+                            <h5 class="card-title fw-bold mb-4">¿Preguntas? Escríbenos</h5>
+                            <p class="mb-3">
+                                <i class="fas fa-envelope me-2"></i>
+                                <strong>Email:</strong> contacto@tikaldevs.com
+                            </p>
+                            <p class="mb-3">
+                                <i class="fas fa-map-marker-alt me-2"></i>
+                                <strong>Ubicación:</strong> Guatemala
+                            </p>
+                            <hr class="my-4">
+                            <p class="text-center">
+                                <a href="https://github.com/Marlonpe3" class="text-white" target="_blank">
+                                    <i class="fab fa-github fa-2x me-2"></i> @Marlonpe3
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white py-4 border-top border-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2026 TIKAL Devs. Todos los derechos reservados.</p>
+                </div>
+                <div class="col-md-6 text-end">
+                    <a href="privacy-policy.html" class="text-white-50 me-3">Política de Privacidad</a>
+                    <a href="#" class="text-white-50">Términos de Servicio</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Scripts personalizados -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
